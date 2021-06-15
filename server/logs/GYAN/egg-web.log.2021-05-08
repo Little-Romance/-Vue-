@@ -1,0 +1,35 @@
+2021-05-08 17:45:27,625 INFO 7868 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-08 17:45:27,645 INFO 7868 [egg-multipart] file mode enable
+2021-05-08 17:45:27,645 INFO 7868 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/GYAN", cleanup job cron: "0 30 4 * * *"
+2021-05-08 17:45:27,645 INFO 7868 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-05-08 17:45:27,732 INFO 7868 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-05-08 17:45:27,733 INFO 7868 [egg-security] use methodnoallow middleware
+2021-05-08 17:45:27,733 INFO 7868 [egg-security] use noopen middleware
+2021-05-08 17:45:27,734 INFO 7868 [egg-security] use nosniff middleware
+2021-05-08 17:45:27,734 INFO 7868 [egg-security] use xssProtection middleware
+2021-05-08 17:45:27,734 INFO 7868 [egg-security] use xframe middleware
+2021-05-08 17:45:27,734 INFO 7868 [egg-security] use dta middleware
+2021-05-08 17:45:27,734 INFO 7868 [egg-security] compose 6 middlewares into one security middleware
+2021-05-08 17:45:27,764 INFO 7868 [egg:core] dump config after load, 3ms
+2021-05-08 17:45:27,777 INFO 7868 [egg-watcher:application] watcher start success
+2021-05-08 17:45:27,779 INFO 7868 [egg-mysql] instance[0] status OK, rds currentTime: 2021-05-08 17:45:27
+2021-05-08 17:45:27,785 INFO 7868 [egg:core] dump config after ready, 5ms
+2021-05-08 17:45:54,300 INFO 7895 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-08 17:45:54,320 INFO 7895 [egg-multipart] file mode enable
+2021-05-08 17:45:54,320 INFO 7895 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/GYAN", cleanup job cron: "0 30 4 * * *"
+2021-05-08 17:45:54,320 INFO 7895 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-05-08 17:45:54,403 INFO 7895 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-05-08 17:45:54,405 INFO 7895 [egg-security] use methodnoallow middleware
+2021-05-08 17:45:54,405 INFO 7895 [egg-security] use noopen middleware
+2021-05-08 17:45:54,405 INFO 7895 [egg-security] use nosniff middleware
+2021-05-08 17:45:54,406 INFO 7895 [egg-security] use xssProtection middleware
+2021-05-08 17:45:54,406 INFO 7895 [egg-security] use xframe middleware
+2021-05-08 17:45:54,406 INFO 7895 [egg-security] use dta middleware
+2021-05-08 17:45:54,406 INFO 7895 [egg-security] compose 6 middlewares into one security middleware
+2021-05-08 17:45:54,433 INFO 7895 [egg:core] dump config after load, 4ms
+2021-05-08 17:45:54,447 INFO 7895 [egg-watcher:application] watcher start success
+2021-05-08 17:45:54,448 INFO 7895 [egg-mysql] instance[0] status OK, rds currentTime: 2021-05-08 17:45:54
+2021-05-08 17:45:54,454 INFO 7895 [egg:core] dump config after ready, 5ms
+2021-05-08 23:59:59,256 INFO 7895 [egg-logrotator] clean all log before 31 days
+2021-05-09 00:00:00,230 INFO 7895 [egg-logrotator] broadcast log-reload
+2021-05-09 00:00:00,230 INFO 7895 [egg-logrotator] rotate files success by DayRotator, files ["/Users/mac/WebProjects/GY_website/server/logs/GYAN/common-error.log -> /Users/mac/WebProjects/GY_website/server/logs/GYAN/common-error.log.2021-05-08","/Users/mac/WebProjects/GY_website/server/logs/GYAN/GYAN-web.log -> /Users/mac/WebProjects/GY_website/server/logs/GYAN/GYAN-web.log.2021-05-08","/Users/mac/WebProjects/GY_website/server/logs/GYAN/egg-web.log -> /Users/mac/WebProjects/GY_website/server/logs/GYAN/egg-web.log.2021-05-08","/Users/mac/WebProjects/GY_website/server/logs/GYAN/egg-schedule.log -> /Users/mac/WebProjects/GY_website/server/logs/GYAN/egg-schedule.log.2021-05-08","/Users/mac/WebProjects/GY_website/server/logs/GYAN/egg-agent.log -> /Users/mac/WebProjects/GY_website/server/logs/GYAN/egg-agent.log.2021-05-08"]

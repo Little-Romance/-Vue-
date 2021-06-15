@@ -1,0 +1,872 @@
+2021-04-14 00:27:40,437 ERROR 8225 [-/undefined/-/6ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 8225
+hostname: MacBook-Pro.local
+
+2021-04-14 00:27:40,607 ERROR 8225 [-/undefined/-/70ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 8225
+hostname: MacBook-Pro.local
+
+2021-04-14 00:28:24,326 ERROR 8225 [-/undefined/-/41645ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 8225
+hostname: MacBook-Pro.local
+
+2021-04-14 14:45:29,708 WARN 41354 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-04-13T15:32:08.000Z"}
+pid: 41354
+hostname: MacBook-Pro.local
+
+2021-04-14 14:45:29,710 ERROR 41354 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 41354
+hostname: MacBook-Pro.local
+
+2021-04-15 17:36:45,467 ERROR 1691 [-/undefined/-/39ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 17:36:45,575 ERROR 1691 [-/undefined/-/62ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 17:47:48,625 WARN 1691 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-04-07T09:48:52.000Z"}
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 17:47:48,626 ERROR 1691 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 17:52:29,855 ERROR 1691 [-/undefined/-/61ms GET /public/videos/gy_1617175871003.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 17:52:30,020 ERROR 1691 [-/undefined/-/80ms GET /public/videos/gy_1617175871003.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 17:55:21,842 ERROR 1691 [-/undefined/-/86ms GET /public/videos/gy_1617036537493.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 17:55:22,016 ERROR 1691 [-/undefined/-/92ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 17:55:48,220 ERROR 1691 [-/undefined/-/22647ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:02:09,411 ERROR 1691 [-/undefined/-/13ms GET /public/videos/gy_1618310916236.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:02:09,516 ERROR 1691 [-/undefined/-/84ms GET /public/videos/gy_1618310916236.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:02:26,155 ERROR 1691 [-/undefined/-/49ms GET /public/videos/gy_1618312313491.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:02:26,272 ERROR 1691 [-/undefined/-/42ms GET /public/videos/gy_1618312313491.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:10:25,698 ERROR 1691 [-/undefined/-/7ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:10:25,833 ERROR 1691 [-/undefined/-/93ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:14:36,227 ERROR 1691 [-/undefined/-/151ms GET /public/videos/gy_1618311756097.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:14:36,503 ERROR 1691 [-/undefined/-/78ms GET /public/videos/gy_1618311756097.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:18:03,048 ERROR 1691 [-/undefined/-/47ms GET /public/videos/gy_1618312611826.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:18:03,188 ERROR 1691 [-/undefined/-/68ms GET /public/videos/gy_1618312611826.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:18:19,018 ERROR 1691 [-/undefined/-/14325ms GET /public/videos/gy_1618312611826.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:18:26,476 ERROR 1691 nodejs.Error: 暂无数据
+    at HotService.list (/Users/mac/WebProjects/GY_website/server/app/service/hot.js:70:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HotController.getHotList (/Users/mac/WebProjects/GY_website/server/app/controller/hot.js:84:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:18:26,477 ERROR 1691 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:20:20,357 ERROR 1691 nodejs.Error: 暂无数据
+    at HotService.list (/Users/mac/WebProjects/GY_website/server/app/service/hot.js:70:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HotController.getHotList (/Users/mac/WebProjects/GY_website/server/app/controller/hot.js:84:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:20:20,358 ERROR 1691 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:21:08,536 ERROR 1691 nodejs.Error: 暂无数据
+    at HotService.list (/Users/mac/WebProjects/GY_website/server/app/service/hot.js:70:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HotController.getHotList (/Users/mac/WebProjects/GY_website/server/app/controller/hot.js:84:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:21:08,536 ERROR 1691 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 1691
+hostname: MacBook-Pro.local
+
+2021-04-15 19:26:05,293 ERROR 4130 [-/undefined/-/86ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4130
+hostname: MacBook-Pro.local
+
+2021-04-15 19:26:05,468 ERROR 4130 [-/undefined/-/75ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4130
+hostname: MacBook-Pro.local
+
+2021-04-15 19:26:27,913 ERROR 4130 [-/undefined/-/20381ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4130
+hostname: MacBook-Pro.local
+
+2021-04-15 19:30:22,921 ERROR 4130 [-/undefined/-/21140ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4130
+hostname: MacBook-Pro.local
+
+2021-04-15 19:32:53,100 ERROR 4130 [-/undefined/-/5ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4130
+hostname: MacBook-Pro.local
+
+2021-04-15 19:32:53,230 ERROR 4130 [-/undefined/-/65ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4130
+hostname: MacBook-Pro.local
+
+2021-04-15 19:32:59,423 ERROR 4130 [-/undefined/-/3928ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4130
+hostname: MacBook-Pro.local
+
+2021-04-15 19:34:18,718 ERROR 4427 [-/undefined/-/18097ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4427
+hostname: MacBook-Pro.local
+
+2021-04-15 19:38:50,092 ERROR 4440 nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `_id` = '3031'' at line 1
+    at Query.Sequence._packetToError (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:65:19)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:54:5
+    sql: UPDATE `tb_video` SET  WHERE `_id` = '3031'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `_id` = '3031'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE `tb_video` SET  WHERE `_id` = '3031'"
+name: "ER_PARSE_ERRORError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:38:50,092 ERROR 4440 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:38:53,244 ERROR 4440 nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `_id` = '3031'' at line 1
+    at Query.Sequence._packetToError (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:65:19)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:54:5
+    sql: UPDATE `tb_video` SET  WHERE `_id` = '3031'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `_id` = '3031'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE `tb_video` SET  WHERE `_id` = '3031'"
+name: "ER_PARSE_ERRORError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:38:53,244 ERROR 4440 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:40:24,286 ERROR 4440 [-/undefined/-/83ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:40:43,410 ERROR 4440 [-/undefined/-/15917ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:42:42,569 ERROR 4440 [-/undefined/-/5ms GET /public/videos/gy_1617036267586.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:42:42,662 ERROR 4440 [-/undefined/-/61ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:46:31,144 ERROR 4440 [-/undefined/-/58ms GET /public/videos/gy_1617175871003.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:46:31,293 ERROR 4440 [-/undefined/-/43ms GET /public/videos/gy_1617175871003.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:57:59,765 ERROR 4440 [-/undefined/-/373ms GET /public/videos/gy_1618161159085.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 19:57:59,869 ERROR 4440 [-/undefined/-/49ms GET /public/videos/gy_1618161159085.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 22:06:30,603 ERROR 4440 [-/undefined/-/17ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 22:06:30,750 ERROR 4440 [-/undefined/-/107ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 4440
+hostname: MacBook-Pro.local
+
+2021-04-15 22:30:39,006 WARN 7308 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-04-15T10:47:55.000Z"}
+pid: 7308
+hostname: MacBook-Pro.local
+
+2021-04-15 22:30:39,008 ERROR 7308 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 7308
+hostname: MacBook-Pro.local
+
+2021-04-15 22:56:29,263 ERROR 7854 nodejs.TypeError: service.comment.commentList is not a function
+    at CommentController.getComments (/Users/mac/WebProjects/GY_website/server/app/controller/comment.js:11:43)
+    at Object.callFn (/Users/mac/WebProjects/GY_website/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/WebProjects/GY_website/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/WebProjects/GY_website/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/WebProjects/GY_website/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:36:12
+
+pid: 7854
+hostname: MacBook-Pro.local
+
+2021-04-15 22:56:29,263 ERROR 7854 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 7854
+hostname: MacBook-Pro.local
+
+2021-04-15 22:57:36,323 ERROR 7876 nodejs.TypeError: service.comment.commentList is not a function
+    at CommentController.getComments (/Users/mac/WebProjects/GY_website/server/app/controller/comment.js:11:43)
+    at Object.callFn (/Users/mac/WebProjects/GY_website/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mac/WebProjects/GY_website/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mac/WebProjects/GY_website/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mac/WebProjects/GY_website/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:36:12
+
+pid: 7876
+hostname: MacBook-Pro.local
+
+2021-04-15 22:57:36,324 ERROR 7876 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 7876
+hostname: MacBook-Pro.local
+
+2021-04-15 23:06:57,704 ERROR 7954 [-/undefined/-/39ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 7954
+hostname: MacBook-Pro.local
+
+2021-04-15 23:06:57,876 ERROR 7954 [-/undefined/-/108ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 7954
+hostname: MacBook-Pro.local
+
+2021-04-15 23:08:14,017 ERROR 7954 [-/undefined/-/9ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 7954
+hostname: MacBook-Pro.local
+
+2021-04-15 23:12:21,794 ERROR 7954 [-/undefined/-/94ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 7954
+hostname: MacBook-Pro.local
+
+2021-04-15 23:12:21,987 ERROR 7954 [-/undefined/-/62ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 7954
+hostname: MacBook-Pro.local
+
+2021-04-15 23:12:24,673 ERROR 7954 [-/undefined/-/59ms GET /public/videos/gy_1618161159085.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 7954
+hostname: MacBook-Pro.local
+
+2021-04-15 23:12:24,909 ERROR 7954 [-/undefined/-/179ms GET /public/videos/gy_1618161159085.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 7954
+hostname: MacBook-Pro.local
+

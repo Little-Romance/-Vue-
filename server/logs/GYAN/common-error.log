@@ -1,0 +1,222 @@
+2021-05-09 08:57:36,636 ERROR 21932 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 21932
+hostname: MacBook-Pro.local
+
+2021-05-09 08:58:12,573 ERROR 21970 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 21970
+hostname: MacBook-Pro.local
+
+2021-05-09 08:59:10,773 ERROR 22000 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 22000
+hostname: MacBook-Pro.local
+
+2021-05-09 09:01:34,736 ERROR 597 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 597
+hostname: MacBook-Pro.local
+
+2021-05-09 09:02:58,050 ERROR 720 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1145:16)
+    --------------------
+    at Protocol._enqueue (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 720
+hostname: MacBook-Pro.local
+
+2021-05-09 09:28:21,502 ERROR 1091 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 1091
+hostname: MacBook-Pro.local
+
+2021-05-09 10:14:51,003 ERROR 1084 nodejs.ClusterClientNoResponseError: client no response in 582868ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mac/WebProjects/GY_website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1084
+hostname: MacBook-Pro.local
+
+2021-05-09 10:33:01,004 ERROR 1084 nodejs.ClusterClientNoResponseError: client no response in 1049978ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mac/WebProjects/GY_website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1084
+hostname: MacBook-Pro.local
+
+2021-05-09 10:33:15,817 ERROR 1091 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 1091
+hostname: MacBook-Pro.local
+
+2021-05-09 10:46:35,002 ERROR 1084 nodejs.ClusterClientNoResponseError: client no response in 753966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mac/WebProjects/GY_website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1084
+hostname: MacBook-Pro.local
+
+2021-05-09 10:48:38,003 ERROR 1084 nodejs.ClusterClientNoResponseError: client no response in 62973ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mac/WebProjects/GY_website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1084
+hostname: MacBook-Pro.local
+
+2021-05-09 11:01:01,003 ERROR 1084 nodejs.ClusterClientNoResponseError: client no response in 682990ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mac/WebProjects/GY_website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1084
+hostname: MacBook-Pro.local
+
+2021-05-09 11:17:15,003 ERROR 1084 nodejs.ClusterClientNoResponseError: client no response in 913992ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mac/WebProjects/GY_website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1084
+hostname: MacBook-Pro.local
+
+2021-05-09 11:32:03,004 ERROR 1084 nodejs.ClusterClientNoResponseError: client no response in 827981ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mac/WebProjects/GY_website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1084
+hostname: MacBook-Pro.local
+
+2021-05-09 12:20:49,002 ERROR 1084 nodejs.ClusterClientNoResponseError: client no response in 2865982ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mac/WebProjects/GY_website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1084
+hostname: MacBook-Pro.local
+
+2021-05-09 13:06:27,003 ERROR 1084 nodejs.ClusterClientNoResponseError: client no response in 2717380ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mac/WebProjects/GY_website/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1084
+hostname: MacBook-Pro.local
+

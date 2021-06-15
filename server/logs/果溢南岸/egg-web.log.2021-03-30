@@ -1,0 +1,372 @@
+2021-03-30 00:00:00,949 INFO 14800 [egg-logrotator] app logger reload: got log-reload message
+2021-03-30 00:29:37,241 INFO 17159 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 00:29:37,267 INFO 17159 [egg-multipart] file mode enable
+2021-03-30 00:29:37,267 INFO 17159 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 00:29:37,267 INFO 17159 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 00:29:37,413 INFO 17159 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 00:29:37,414 INFO 17159 [egg-security] use methodnoallow middleware
+2021-03-30 00:29:37,415 INFO 17159 [egg-security] use noopen middleware
+2021-03-30 00:29:37,416 INFO 17159 [egg-security] use nosniff middleware
+2021-03-30 00:29:37,416 INFO 17159 [egg-security] use xssProtection middleware
+2021-03-30 00:29:37,417 INFO 17159 [egg-security] use xframe middleware
+2021-03-30 00:29:37,417 INFO 17159 [egg-security] use dta middleware
+2021-03-30 00:29:37,417 INFO 17159 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 00:29:37,461 INFO 17159 [egg:core] dump config after load, 7ms
+2021-03-30 00:29:37,476 INFO 17159 [egg-watcher:application] watcher start success
+2021-03-30 00:29:37,478 INFO 17159 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 00:29:37
+2021-03-30 00:29:37,484 INFO 17159 [egg:core] dump config after ready, 5ms
+2021-03-30 00:49:19,855 INFO 17506 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 00:49:19,876 INFO 17506 [egg-multipart] file mode enable
+2021-03-30 00:49:19,876 INFO 17506 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 00:49:19,877 INFO 17506 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 00:49:19,976 INFO 17506 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 00:49:19,977 INFO 17506 [egg-security] use methodnoallow middleware
+2021-03-30 00:49:19,978 INFO 17506 [egg-security] use noopen middleware
+2021-03-30 00:49:19,978 INFO 17506 [egg-security] use nosniff middleware
+2021-03-30 00:49:19,979 INFO 17506 [egg-security] use xssProtection middleware
+2021-03-30 00:49:19,979 INFO 17506 [egg-security] use xframe middleware
+2021-03-30 00:49:19,979 INFO 17506 [egg-security] use dta middleware
+2021-03-30 00:49:19,979 INFO 17506 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 00:49:20,024 INFO 17506 [egg:core] dump config after load, 13ms
+2021-03-30 00:49:20,047 INFO 17506 [egg-watcher:application] watcher start success
+2021-03-30 00:49:20,049 INFO 17506 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 00:49:20
+2021-03-30 00:49:20,057 INFO 17506 [egg:core] dump config after ready, 6ms
+2021-03-30 01:14:51,704 INFO 18046 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 01:14:51,725 INFO 18046 [egg-multipart] file mode enable
+2021-03-30 01:14:51,725 INFO 18046 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 01:14:51,725 INFO 18046 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 01:14:51,816 INFO 18046 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 01:14:51,817 INFO 18046 [egg-security] use methodnoallow middleware
+2021-03-30 01:14:51,818 INFO 18046 [egg-security] use noopen middleware
+2021-03-30 01:14:51,818 INFO 18046 [egg-security] use nosniff middleware
+2021-03-30 01:14:51,818 INFO 18046 [egg-security] use xssProtection middleware
+2021-03-30 01:14:51,819 INFO 18046 [egg-security] use xframe middleware
+2021-03-30 01:14:51,819 INFO 18046 [egg-security] use dta middleware
+2021-03-30 01:14:51,819 INFO 18046 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 01:14:51,847 INFO 18046 [egg:core] dump config after load, 4ms
+2021-03-30 01:14:51,860 INFO 18046 [egg-watcher:application] watcher start success
+2021-03-30 01:14:51,862 INFO 18046 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 01:14:51
+2021-03-30 01:14:51,868 INFO 18046 [egg:core] dump config after ready, 4ms
+2021-03-30 01:15:12,598 INFO 18058 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 01:15:12,623 INFO 18058 [egg-multipart] file mode enable
+2021-03-30 01:15:12,623 INFO 18058 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 01:15:12,624 INFO 18058 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 01:15:12,726 INFO 18058 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 01:15:12,728 INFO 18058 [egg-security] use methodnoallow middleware
+2021-03-30 01:15:12,729 INFO 18058 [egg-security] use noopen middleware
+2021-03-30 01:15:12,729 INFO 18058 [egg-security] use nosniff middleware
+2021-03-30 01:15:12,729 INFO 18058 [egg-security] use xssProtection middleware
+2021-03-30 01:15:12,730 INFO 18058 [egg-security] use xframe middleware
+2021-03-30 01:15:12,730 INFO 18058 [egg-security] use dta middleware
+2021-03-30 01:15:12,730 INFO 18058 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 01:15:12,762 INFO 18058 [egg:core] dump config after load, 4ms
+2021-03-30 01:15:12,779 INFO 18058 [egg-watcher:application] watcher start success
+2021-03-30 01:15:12,781 INFO 18058 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 01:15:12
+2021-03-30 01:15:12,788 INFO 18058 [egg:core] dump config after ready, 5ms
+2021-03-30 01:27:04,247 INFO 18245 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 01:27:04,267 INFO 18245 [egg-multipart] file mode enable
+2021-03-30 01:27:04,267 INFO 18245 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 01:27:04,267 INFO 18245 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 01:27:04,400 INFO 18245 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 01:27:04,402 INFO 18245 [egg-security] use methodnoallow middleware
+2021-03-30 01:27:04,402 INFO 18245 [egg-security] use noopen middleware
+2021-03-30 01:27:04,403 INFO 18245 [egg-security] use nosniff middleware
+2021-03-30 01:27:04,403 INFO 18245 [egg-security] use xssProtection middleware
+2021-03-30 01:27:04,403 INFO 18245 [egg-security] use xframe middleware
+2021-03-30 01:27:04,403 INFO 18245 [egg-security] use dta middleware
+2021-03-30 01:27:04,403 INFO 18245 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 01:27:04,436 INFO 18245 [egg:core] dump config after load, 4ms
+2021-03-30 01:27:04,450 INFO 18245 [egg-watcher:application] watcher start success
+2021-03-30 01:27:04,452 INFO 18245 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 01:27:04
+2021-03-30 01:27:04,460 INFO 18245 [egg:core] dump config after ready, 6ms
+2021-03-30 01:28:22,434 INFO 18267 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 01:28:22,476 INFO 18267 [egg-multipart] file mode enable
+2021-03-30 01:28:22,476 INFO 18267 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 01:28:22,476 INFO 18267 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 01:28:22,581 INFO 18267 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 01:28:22,582 INFO 18267 [egg-security] use methodnoallow middleware
+2021-03-30 01:28:22,583 INFO 18267 [egg-security] use noopen middleware
+2021-03-30 01:28:22,583 INFO 18267 [egg-security] use nosniff middleware
+2021-03-30 01:28:22,583 INFO 18267 [egg-security] use xssProtection middleware
+2021-03-30 01:28:22,584 INFO 18267 [egg-security] use xframe middleware
+2021-03-30 01:28:22,584 INFO 18267 [egg-security] use dta middleware
+2021-03-30 01:28:22,584 INFO 18267 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 01:28:22,615 INFO 18267 [egg:core] dump config after load, 4ms
+2021-03-30 01:28:22,629 INFO 18267 [egg-watcher:application] watcher start success
+2021-03-30 01:28:22,631 INFO 18267 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 01:28:22
+2021-03-30 01:28:22,637 INFO 18267 [egg:core] dump config after ready, 4ms
+2021-03-30 13:25:59,985 INFO 1407 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 13:26:00,006 INFO 1407 [egg-multipart] file mode enable
+2021-03-30 13:26:00,006 INFO 1407 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 13:26:00,006 INFO 1407 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 13:26:00,152 INFO 1407 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 13:26:00,153 INFO 1407 [egg-security] use methodnoallow middleware
+2021-03-30 13:26:00,154 INFO 1407 [egg-security] use noopen middleware
+2021-03-30 13:26:00,155 INFO 1407 [egg-security] use nosniff middleware
+2021-03-30 13:26:00,156 INFO 1407 [egg-security] use xssProtection middleware
+2021-03-30 13:26:00,157 INFO 1407 [egg-security] use xframe middleware
+2021-03-30 13:26:00,157 INFO 1407 [egg-security] use dta middleware
+2021-03-30 13:26:00,157 INFO 1407 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 13:26:00,194 INFO 1407 [egg:core] dump config after load, 4ms
+2021-03-30 13:26:00,209 INFO 1407 [egg-watcher:application] watcher start success
+2021-03-30 13:26:00,213 INFO 1407 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 13:26:00
+2021-03-30 13:26:00,219 INFO 1407 [egg:core] dump config after ready, 4ms
+2021-03-30 13:55:10,886 INFO 1967 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 13:55:10,911 INFO 1967 [egg-multipart] file mode enable
+2021-03-30 13:55:10,911 INFO 1967 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 13:55:10,912 INFO 1967 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 13:55:11,096 INFO 1967 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 13:55:11,098 INFO 1967 [egg-security] use methodnoallow middleware
+2021-03-30 13:55:11,099 INFO 1967 [egg-security] use noopen middleware
+2021-03-30 13:55:11,099 INFO 1967 [egg-security] use nosniff middleware
+2021-03-30 13:55:11,100 INFO 1967 [egg-security] use xssProtection middleware
+2021-03-30 13:55:11,100 INFO 1967 [egg-security] use xframe middleware
+2021-03-30 13:55:11,100 INFO 1967 [egg-security] use dta middleware
+2021-03-30 13:55:11,100 INFO 1967 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 13:55:11,137 INFO 1967 [egg:core] dump config after load, 8ms
+2021-03-30 13:55:11,158 INFO 1967 [egg-watcher:application] watcher start success
+2021-03-30 13:55:11,160 INFO 1967 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 13:55:11
+2021-03-30 13:55:11,169 INFO 1967 [egg:core] dump config after ready, 6ms
+2021-03-30 14:16:43,341 INFO 2413 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 14:16:43,363 INFO 2413 [egg-multipart] file mode enable
+2021-03-30 14:16:43,363 INFO 2413 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 14:16:43,364 INFO 2413 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 14:16:43,456 INFO 2413 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 14:16:43,457 INFO 2413 [egg-security] use methodnoallow middleware
+2021-03-30 14:16:43,458 INFO 2413 [egg-security] use noopen middleware
+2021-03-30 14:16:43,458 INFO 2413 [egg-security] use nosniff middleware
+2021-03-30 14:16:43,458 INFO 2413 [egg-security] use xssProtection middleware
+2021-03-30 14:16:43,459 INFO 2413 [egg-security] use xframe middleware
+2021-03-30 14:16:43,459 INFO 2413 [egg-security] use dta middleware
+2021-03-30 14:16:43,459 INFO 2413 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 14:16:43,487 INFO 2413 [egg:core] dump config after load, 4ms
+2021-03-30 14:16:43,502 INFO 2413 [egg-watcher:application] watcher start success
+2021-03-30 14:16:43,503 INFO 2413 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 14:16:43
+2021-03-30 14:16:43,509 INFO 2413 [egg:core] dump config after ready, 5ms
+2021-03-30 14:18:16,165 INFO 2436 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 14:18:16,186 INFO 2436 [egg-multipart] file mode enable
+2021-03-30 14:18:16,186 INFO 2436 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 14:18:16,186 INFO 2436 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 14:18:16,286 INFO 2436 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 14:18:16,288 INFO 2436 [egg-security] use methodnoallow middleware
+2021-03-30 14:18:16,288 INFO 2436 [egg-security] use noopen middleware
+2021-03-30 14:18:16,289 INFO 2436 [egg-security] use nosniff middleware
+2021-03-30 14:18:16,289 INFO 2436 [egg-security] use xssProtection middleware
+2021-03-30 14:18:16,289 INFO 2436 [egg-security] use xframe middleware
+2021-03-30 14:18:16,290 INFO 2436 [egg-security] use dta middleware
+2021-03-30 14:18:16,290 INFO 2436 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 14:18:16,321 INFO 2436 [egg:core] dump config after load, 5ms
+2021-03-30 14:18:16,336 INFO 2436 [egg-watcher:application] watcher start success
+2021-03-30 14:18:16,339 INFO 2436 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 14:18:16
+2021-03-30 14:18:16,346 INFO 2436 [egg:core] dump config after ready, 6ms
+2021-03-30 14:19:59,565 INFO 2468 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 14:19:59,586 INFO 2468 [egg-multipart] file mode enable
+2021-03-30 14:19:59,586 INFO 2468 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 14:19:59,587 INFO 2468 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 14:19:59,689 INFO 2468 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 14:19:59,691 INFO 2468 [egg-security] use methodnoallow middleware
+2021-03-30 14:19:59,691 INFO 2468 [egg-security] use noopen middleware
+2021-03-30 14:19:59,691 INFO 2468 [egg-security] use nosniff middleware
+2021-03-30 14:19:59,692 INFO 2468 [egg-security] use xssProtection middleware
+2021-03-30 14:19:59,692 INFO 2468 [egg-security] use xframe middleware
+2021-03-30 14:19:59,692 INFO 2468 [egg-security] use dta middleware
+2021-03-30 14:19:59,692 INFO 2468 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 14:19:59,729 INFO 2468 [egg:core] dump config after load, 6ms
+2021-03-30 14:19:59,745 INFO 2468 [egg-watcher:application] watcher start success
+2021-03-30 14:19:59,748 INFO 2468 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 14:19:59
+2021-03-30 14:19:59,755 INFO 2468 [egg:core] dump config after ready, 5ms
+2021-03-30 14:20:38,427 INFO 2481 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 14:20:38,449 INFO 2481 [egg-multipart] file mode enable
+2021-03-30 14:20:38,449 INFO 2481 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 14:20:38,450 INFO 2481 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 14:20:38,541 INFO 2481 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 14:20:38,542 INFO 2481 [egg-security] use methodnoallow middleware
+2021-03-30 14:20:38,542 INFO 2481 [egg-security] use noopen middleware
+2021-03-30 14:20:38,543 INFO 2481 [egg-security] use nosniff middleware
+2021-03-30 14:20:38,543 INFO 2481 [egg-security] use xssProtection middleware
+2021-03-30 14:20:38,543 INFO 2481 [egg-security] use xframe middleware
+2021-03-30 14:20:38,543 INFO 2481 [egg-security] use dta middleware
+2021-03-30 14:20:38,543 INFO 2481 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 14:20:38,571 INFO 2481 [egg:core] dump config after load, 5ms
+2021-03-30 14:20:38,588 INFO 2481 [egg-watcher:application] watcher start success
+2021-03-30 14:20:38,589 INFO 2481 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 14:20:38
+2021-03-30 14:20:38,601 INFO 2481 [egg:core] dump config after ready, 8ms
+2021-03-30 14:21:19,068 INFO 2499 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 14:21:19,090 INFO 2499 [egg-multipart] file mode enable
+2021-03-30 14:21:19,090 INFO 2499 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 14:21:19,091 INFO 2499 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 14:21:19,177 INFO 2499 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 14:21:19,178 INFO 2499 [egg-security] use methodnoallow middleware
+2021-03-30 14:21:19,179 INFO 2499 [egg-security] use noopen middleware
+2021-03-30 14:21:19,179 INFO 2499 [egg-security] use nosniff middleware
+2021-03-30 14:21:19,179 INFO 2499 [egg-security] use xssProtection middleware
+2021-03-30 14:21:19,180 INFO 2499 [egg-security] use xframe middleware
+2021-03-30 14:21:19,180 INFO 2499 [egg-security] use dta middleware
+2021-03-30 14:21:19,180 INFO 2499 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 14:21:19,206 INFO 2499 [egg:core] dump config after load, 4ms
+2021-03-30 14:21:19,219 INFO 2499 [egg-watcher:application] watcher start success
+2021-03-30 14:21:19,221 INFO 2499 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 14:21:19
+2021-03-30 14:21:19,227 INFO 2499 [egg:core] dump config after ready, 4ms
+2021-03-30 14:27:06,409 INFO 2635 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 14:27:06,431 INFO 2635 [egg-multipart] file mode enable
+2021-03-30 14:27:06,432 INFO 2635 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 14:27:06,432 INFO 2635 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 14:27:06,517 INFO 2635 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 14:27:06,518 INFO 2635 [egg-security] use methodnoallow middleware
+2021-03-30 14:27:06,518 INFO 2635 [egg-security] use noopen middleware
+2021-03-30 14:27:06,519 INFO 2635 [egg-security] use nosniff middleware
+2021-03-30 14:27:06,519 INFO 2635 [egg-security] use xssProtection middleware
+2021-03-30 14:27:06,519 INFO 2635 [egg-security] use xframe middleware
+2021-03-30 14:27:06,519 INFO 2635 [egg-security] use dta middleware
+2021-03-30 14:27:06,519 INFO 2635 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 14:27:06,549 INFO 2635 [egg:core] dump config after load, 4ms
+2021-03-30 14:27:06,563 INFO 2635 [egg-watcher:application] watcher start success
+2021-03-30 14:27:06,565 INFO 2635 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 14:27:06
+2021-03-30 14:27:06,573 INFO 2635 [egg:core] dump config after ready, 5ms
+2021-03-30 15:18:28,634 INFO 3619 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 15:18:28,672 INFO 3619 [egg-multipart] file mode enable
+2021-03-30 15:18:28,672 INFO 3619 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 15:18:28,673 INFO 3619 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 15:18:28,821 INFO 3619 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 15:18:28,823 INFO 3619 [egg-security] use methodnoallow middleware
+2021-03-30 15:18:28,824 INFO 3619 [egg-security] use noopen middleware
+2021-03-30 15:18:28,825 INFO 3619 [egg-security] use nosniff middleware
+2021-03-30 15:18:28,825 INFO 3619 [egg-security] use xssProtection middleware
+2021-03-30 15:18:28,826 INFO 3619 [egg-security] use xframe middleware
+2021-03-30 15:18:28,826 INFO 3619 [egg-security] use dta middleware
+2021-03-30 15:18:28,826 INFO 3619 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 15:18:28,868 INFO 3619 [egg:core] dump config after load, 9ms
+2021-03-30 15:18:28,892 INFO 3619 [egg-watcher:application] watcher start success
+2021-03-30 15:18:28,894 INFO 3619 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 15:18:28
+2021-03-30 15:18:28,901 INFO 3619 [egg:core] dump config after ready, 5ms
+2021-03-30 15:18:29,559 INFO 3622 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 15:18:29,580 INFO 3622 [egg-multipart] file mode enable
+2021-03-30 15:18:29,580 INFO 3622 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 15:18:29,581 INFO 3622 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 15:18:29,666 INFO 3622 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 15:18:29,668 INFO 3622 [egg-security] use methodnoallow middleware
+2021-03-30 15:18:29,668 INFO 3622 [egg-security] use noopen middleware
+2021-03-30 15:18:29,668 INFO 3622 [egg-security] use nosniff middleware
+2021-03-30 15:18:29,669 INFO 3622 [egg-security] use xssProtection middleware
+2021-03-30 15:18:29,669 INFO 3622 [egg-security] use xframe middleware
+2021-03-30 15:18:29,669 INFO 3622 [egg-security] use dta middleware
+2021-03-30 15:18:29,669 INFO 3622 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 15:18:29,711 INFO 3622 [egg:core] dump config after load, 7ms
+2021-03-30 15:18:29,731 INFO 3622 [egg-watcher:application] watcher start success
+2021-03-30 15:18:29,733 INFO 3622 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 15:18:29
+2021-03-30 15:18:29,742 INFO 3622 [egg:core] dump config after ready, 7ms
+2021-03-30 15:18:50,106 INFO 3632 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 15:18:50,126 INFO 3632 [egg-multipart] file mode enable
+2021-03-30 15:18:50,126 INFO 3632 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 15:18:50,127 INFO 3632 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 15:18:50,212 INFO 3632 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 15:18:50,214 INFO 3632 [egg-security] use methodnoallow middleware
+2021-03-30 15:18:50,214 INFO 3632 [egg-security] use noopen middleware
+2021-03-30 15:18:50,214 INFO 3632 [egg-security] use nosniff middleware
+2021-03-30 15:18:50,214 INFO 3632 [egg-security] use xssProtection middleware
+2021-03-30 15:18:50,215 INFO 3632 [egg-security] use xframe middleware
+2021-03-30 15:18:50,215 INFO 3632 [egg-security] use dta middleware
+2021-03-30 15:18:50,215 INFO 3632 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 15:18:50,244 INFO 3632 [egg:core] dump config after load, 5ms
+2021-03-30 15:18:50,258 INFO 3632 [egg-watcher:application] watcher start success
+2021-03-30 15:18:50,260 INFO 3632 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 15:18:50
+2021-03-30 15:18:50,266 INFO 3632 [egg:core] dump config after ready, 4ms
+2021-03-30 15:19:21,706 INFO 3639 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 15:19:21,726 INFO 3639 [egg-multipart] file mode enable
+2021-03-30 15:19:21,726 INFO 3639 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 15:19:21,726 INFO 3639 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 15:19:21,807 INFO 3639 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 15:19:21,809 INFO 3639 [egg-security] use methodnoallow middleware
+2021-03-30 15:19:21,809 INFO 3639 [egg-security] use noopen middleware
+2021-03-30 15:19:21,809 INFO 3639 [egg-security] use nosniff middleware
+2021-03-30 15:19:21,809 INFO 3639 [egg-security] use xssProtection middleware
+2021-03-30 15:19:21,810 INFO 3639 [egg-security] use xframe middleware
+2021-03-30 15:19:21,810 INFO 3639 [egg-security] use dta middleware
+2021-03-30 15:19:21,810 INFO 3639 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 15:19:21,836 INFO 3639 [egg:core] dump config after load, 3ms
+2021-03-30 15:19:21,850 INFO 3639 [egg-watcher:application] watcher start success
+2021-03-30 15:19:21,852 INFO 3639 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 15:19:21
+2021-03-30 15:19:21,858 INFO 3639 [egg:core] dump config after ready, 5ms
+2021-03-30 15:19:48,104 INFO 3646 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 15:19:48,124 INFO 3646 [egg-multipart] file mode enable
+2021-03-30 15:19:48,124 INFO 3646 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 15:19:48,125 INFO 3646 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 15:19:48,210 INFO 3646 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 15:19:48,211 INFO 3646 [egg-security] use methodnoallow middleware
+2021-03-30 15:19:48,212 INFO 3646 [egg-security] use noopen middleware
+2021-03-30 15:19:48,212 INFO 3646 [egg-security] use nosniff middleware
+2021-03-30 15:19:48,212 INFO 3646 [egg-security] use xssProtection middleware
+2021-03-30 15:19:48,212 INFO 3646 [egg-security] use xframe middleware
+2021-03-30 15:19:48,213 INFO 3646 [egg-security] use dta middleware
+2021-03-30 15:19:48,213 INFO 3646 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 15:19:48,245 INFO 3646 [egg:core] dump config after load, 4ms
+2021-03-30 15:19:48,261 INFO 3646 [egg-watcher:application] watcher start success
+2021-03-30 15:19:48,263 INFO 3646 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 15:19:48
+2021-03-30 15:19:48,270 INFO 3646 [egg:core] dump config after ready, 5ms
+2021-03-30 15:20:00,573 INFO 3650 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 15:20:00,602 INFO 3650 [egg-multipart] file mode enable
+2021-03-30 15:20:00,602 INFO 3650 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 15:20:00,603 INFO 3650 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 15:20:00,699 INFO 3650 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 15:20:00,701 INFO 3650 [egg-security] use methodnoallow middleware
+2021-03-30 15:20:00,702 INFO 3650 [egg-security] use noopen middleware
+2021-03-30 15:20:00,702 INFO 3650 [egg-security] use nosniff middleware
+2021-03-30 15:20:00,702 INFO 3650 [egg-security] use xssProtection middleware
+2021-03-30 15:20:00,703 INFO 3650 [egg-security] use xframe middleware
+2021-03-30 15:20:00,703 INFO 3650 [egg-security] use dta middleware
+2021-03-30 15:20:00,703 INFO 3650 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 15:20:00,734 INFO 3650 [egg:core] dump config after load, 4ms
+2021-03-30 15:20:00,747 INFO 3650 [egg-watcher:application] watcher start success
+2021-03-30 15:20:00,749 INFO 3650 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 15:20:00
+2021-03-30 15:20:00,756 INFO 3650 [egg:core] dump config after ready, 5ms
+2021-03-30 16:12:52,016 INFO 4628 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 16:12:52,039 INFO 4628 [egg-multipart] file mode enable
+2021-03-30 16:12:52,039 INFO 4628 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 16:12:52,039 INFO 4628 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 16:12:52,171 INFO 4628 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 16:12:52,172 INFO 4628 [egg-security] use methodnoallow middleware
+2021-03-30 16:12:52,173 INFO 4628 [egg-security] use noopen middleware
+2021-03-30 16:12:52,173 INFO 4628 [egg-security] use nosniff middleware
+2021-03-30 16:12:52,174 INFO 4628 [egg-security] use xssProtection middleware
+2021-03-30 16:12:52,174 INFO 4628 [egg-security] use xframe middleware
+2021-03-30 16:12:52,175 INFO 4628 [egg-security] use dta middleware
+2021-03-30 16:12:52,175 INFO 4628 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 16:12:52,208 INFO 4628 [egg:core] dump config after load, 4ms
+2021-03-30 16:12:52,222 INFO 4628 [egg-watcher:application] watcher start success
+2021-03-30 16:12:52,224 INFO 4628 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 16:12:52
+2021-03-30 16:12:52,230 INFO 4628 [egg:core] dump config after ready, 4ms
+2021-03-30 16:18:09,133 INFO 4720 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 16:18:09,157 INFO 4720 [egg-multipart] file mode enable
+2021-03-30 16:18:09,157 INFO 4720 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 16:18:09,158 INFO 4720 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 16:18:09,298 INFO 4720 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 16:18:09,300 INFO 4720 [egg-security] use methodnoallow middleware
+2021-03-30 16:18:09,300 INFO 4720 [egg-security] use noopen middleware
+2021-03-30 16:18:09,301 INFO 4720 [egg-security] use nosniff middleware
+2021-03-30 16:18:09,301 INFO 4720 [egg-security] use xssProtection middleware
+2021-03-30 16:18:09,302 INFO 4720 [egg-security] use xframe middleware
+2021-03-30 16:18:09,302 INFO 4720 [egg-security] use dta middleware
+2021-03-30 16:18:09,302 INFO 4720 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 16:18:09,351 INFO 4720 [egg:core] dump config after load, 6ms
+2021-03-30 16:18:09,369 INFO 4720 [egg-watcher:application] watcher start success
+2021-03-30 16:18:09,372 INFO 4720 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 16:18:09
+2021-03-30 16:18:09,439 INFO 4720 [egg:core] dump config after ready, 66ms
+2021-03-30 17:58:11,926 INFO 6633 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-03-30 17:58:11,951 INFO 6633 [egg-multipart] file mode enable
+2021-03-30 17:58:11,951 INFO 6633 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/果溢南岸", cleanup job cron: "0 30 4 * * *"
+2021-03-30 17:58:11,951 INFO 6633 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-03-30 17:58:12,091 INFO 6633 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-03-30 17:58:12,093 INFO 6633 [egg-security] use methodnoallow middleware
+2021-03-30 17:58:12,094 INFO 6633 [egg-security] use noopen middleware
+2021-03-30 17:58:12,094 INFO 6633 [egg-security] use nosniff middleware
+2021-03-30 17:58:12,095 INFO 6633 [egg-security] use xssProtection middleware
+2021-03-30 17:58:12,095 INFO 6633 [egg-security] use xframe middleware
+2021-03-30 17:58:12,096 INFO 6633 [egg-security] use dta middleware
+2021-03-30 17:58:12,096 INFO 6633 [egg-security] compose 6 middlewares into one security middleware
+2021-03-30 17:58:12,136 INFO 6633 [egg:core] dump config after load, 6ms
+2021-03-30 17:58:12,151 INFO 6633 [egg-watcher:application] watcher start success
+2021-03-30 17:58:12,153 INFO 6633 [egg-mysql] instance[0] status OK, rds currentTime: 2021-03-30 17:58:12
+2021-03-30 17:58:12,160 INFO 6633 [egg:core] dump config after ready, 5ms
+2021-03-30 23:59:58,806 INFO 6633 [egg-logrotator] clean all log before 31 days
+2021-03-30 23:59:59,794 INFO 6633 [egg-logrotator] broadcast log-reload
+2021-03-30 23:59:59,794 INFO 6633 [egg-logrotator] rotate files success by DayRotator, files ["/Users/mac/WebProjects/GY_website/server/logs/果溢南岸/common-error.log -> /Users/mac/WebProjects/GY_website/server/logs/果溢南岸/common-error.log.2021-03-30","/Users/mac/WebProjects/GY_website/server/logs/果溢南岸/果溢南岸-web.log -> /Users/mac/WebProjects/GY_website/server/logs/果溢南岸/果溢南岸-web.log.2021-03-30","/Users/mac/WebProjects/GY_website/server/logs/果溢南岸/egg-web.log -> /Users/mac/WebProjects/GY_website/server/logs/果溢南岸/egg-web.log.2021-03-30","/Users/mac/WebProjects/GY_website/server/logs/果溢南岸/egg-schedule.log -> /Users/mac/WebProjects/GY_website/server/logs/果溢南岸/egg-schedule.log.2021-03-30","/Users/mac/WebProjects/GY_website/server/logs/果溢南岸/egg-agent.log -> /Users/mac/WebProjects/GY_website/server/logs/果溢南岸/egg-agent.log.2021-03-30"]

@@ -1,0 +1,126 @@
+2021-05-09 00:00:00,232 INFO 7895 [egg-logrotator] app logger reload: got log-reload message
+2021-05-09 08:57:36,409 INFO 21932 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-09 08:57:36,429 INFO 21932 [egg-multipart] file mode enable
+2021-05-09 08:57:36,429 INFO 21932 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/GYAN", cleanup job cron: "0 30 4 * * *"
+2021-05-09 08:57:36,429 INFO 21932 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-05-09 08:57:36,581 INFO 21932 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-05-09 08:57:36,582 INFO 21932 [egg-security] use methodnoallow middleware
+2021-05-09 08:57:36,583 INFO 21932 [egg-security] use noopen middleware
+2021-05-09 08:57:36,584 INFO 21932 [egg-security] use nosniff middleware
+2021-05-09 08:57:36,584 INFO 21932 [egg-security] use xssProtection middleware
+2021-05-09 08:57:36,585 INFO 21932 [egg-security] use xframe middleware
+2021-05-09 08:57:36,585 INFO 21932 [egg-security] use dta middleware
+2021-05-09 08:57:36,585 INFO 21932 [egg-security] compose 6 middlewares into one security middleware
+2021-05-09 08:57:36,624 INFO 21932 [egg:core] dump config after load, 3ms
+2021-05-09 08:57:36,659 INFO 21932 [egg:core] dump config after ready, 6ms
+2021-05-09 08:57:36,661 INFO 21932 [egg-watcher:application] watcher start success
+2021-05-09 08:58:12,428 INFO 21970 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-09 08:58:12,448 INFO 21970 [egg-multipart] file mode enable
+2021-05-09 08:58:12,448 INFO 21970 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/GYAN", cleanup job cron: "0 30 4 * * *"
+2021-05-09 08:58:12,448 INFO 21970 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-05-09 08:58:12,531 INFO 21970 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-05-09 08:58:12,533 INFO 21970 [egg-security] use methodnoallow middleware
+2021-05-09 08:58:12,533 INFO 21970 [egg-security] use noopen middleware
+2021-05-09 08:58:12,533 INFO 21970 [egg-security] use nosniff middleware
+2021-05-09 08:58:12,534 INFO 21970 [egg-security] use xssProtection middleware
+2021-05-09 08:58:12,534 INFO 21970 [egg-security] use xframe middleware
+2021-05-09 08:58:12,534 INFO 21970 [egg-security] use dta middleware
+2021-05-09 08:58:12,534 INFO 21970 [egg-security] compose 6 middlewares into one security middleware
+2021-05-09 08:58:12,561 INFO 21970 [egg:core] dump config after load, 4ms
+2021-05-09 08:58:12,579 INFO 21970 [egg:core] dump config after ready, 4ms
+2021-05-09 08:58:12,581 INFO 21970 [egg-watcher:application] watcher start success
+2021-05-09 08:59:10,628 INFO 22000 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-09 08:59:10,647 INFO 22000 [egg-multipart] file mode enable
+2021-05-09 08:59:10,647 INFO 22000 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/GYAN", cleanup job cron: "0 30 4 * * *"
+2021-05-09 08:59:10,647 INFO 22000 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-05-09 08:59:10,730 INFO 22000 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-05-09 08:59:10,732 INFO 22000 [egg-security] use methodnoallow middleware
+2021-05-09 08:59:10,732 INFO 22000 [egg-security] use noopen middleware
+2021-05-09 08:59:10,732 INFO 22000 [egg-security] use nosniff middleware
+2021-05-09 08:59:10,733 INFO 22000 [egg-security] use xssProtection middleware
+2021-05-09 08:59:10,733 INFO 22000 [egg-security] use xframe middleware
+2021-05-09 08:59:10,733 INFO 22000 [egg-security] use dta middleware
+2021-05-09 08:59:10,733 INFO 22000 [egg-security] compose 6 middlewares into one security middleware
+2021-05-09 08:59:10,760 INFO 22000 [egg:core] dump config after load, 4ms
+2021-05-09 08:59:10,779 INFO 22000 [egg:core] dump config after ready, 5ms
+2021-05-09 08:59:10,780 INFO 22000 [egg-watcher:application] watcher start success
+2021-05-09 09:01:34,511 INFO 597 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-09 09:01:34,531 INFO 597 [egg-multipart] file mode enable
+2021-05-09 09:01:34,531 INFO 597 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/GYAN", cleanup job cron: "0 30 4 * * *"
+2021-05-09 09:01:34,531 INFO 597 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-05-09 09:01:34,683 INFO 597 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-05-09 09:01:34,685 INFO 597 [egg-security] use methodnoallow middleware
+2021-05-09 09:01:34,686 INFO 597 [egg-security] use noopen middleware
+2021-05-09 09:01:34,686 INFO 597 [egg-security] use nosniff middleware
+2021-05-09 09:01:34,687 INFO 597 [egg-security] use xssProtection middleware
+2021-05-09 09:01:34,688 INFO 597 [egg-security] use xframe middleware
+2021-05-09 09:01:34,688 INFO 597 [egg-security] use dta middleware
+2021-05-09 09:01:34,688 INFO 597 [egg-security] compose 6 middlewares into one security middleware
+2021-05-09 09:01:34,723 INFO 597 [egg:core] dump config after load, 4ms
+2021-05-09 09:01:34,742 INFO 597 [egg:core] dump config after ready, 4ms
+2021-05-09 09:01:34,744 INFO 597 [egg-watcher:application] watcher start success
+2021-05-09 09:02:57,899 INFO 720 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-09 09:02:57,918 INFO 720 [egg-multipart] file mode enable
+2021-05-09 09:02:57,918 INFO 720 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/GYAN", cleanup job cron: "0 30 4 * * *"
+2021-05-09 09:02:57,918 INFO 720 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-05-09 09:02:58,007 INFO 720 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-05-09 09:02:58,008 INFO 720 [egg-security] use methodnoallow middleware
+2021-05-09 09:02:58,009 INFO 720 [egg-security] use noopen middleware
+2021-05-09 09:02:58,009 INFO 720 [egg-security] use nosniff middleware
+2021-05-09 09:02:58,009 INFO 720 [egg-security] use xssProtection middleware
+2021-05-09 09:02:58,010 INFO 720 [egg-security] use xframe middleware
+2021-05-09 09:02:58,010 INFO 720 [egg-security] use dta middleware
+2021-05-09 09:02:58,010 INFO 720 [egg-security] compose 6 middlewares into one security middleware
+2021-05-09 09:02:58,038 INFO 720 [egg:core] dump config after load, 6ms
+2021-05-09 09:02:58,056 INFO 720 [egg:core] dump config after ready, 4ms
+2021-05-09 09:02:58,057 INFO 720 [egg-watcher:application] watcher start success
+2021-05-09 09:05:19,595 INFO 911 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-09 09:05:19,614 INFO 911 [egg-multipart] file mode enable
+2021-05-09 09:05:19,614 INFO 911 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/GYAN", cleanup job cron: "0 30 4 * * *"
+2021-05-09 09:05:19,615 INFO 911 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-05-09 09:05:19,697 INFO 911 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-05-09 09:05:19,698 INFO 911 [egg-security] use methodnoallow middleware
+2021-05-09 09:05:19,698 INFO 911 [egg-security] use noopen middleware
+2021-05-09 09:05:19,699 INFO 911 [egg-security] use nosniff middleware
+2021-05-09 09:05:19,699 INFO 911 [egg-security] use xssProtection middleware
+2021-05-09 09:05:19,699 INFO 911 [egg-security] use xframe middleware
+2021-05-09 09:05:19,699 INFO 911 [egg-security] use dta middleware
+2021-05-09 09:05:19,699 INFO 911 [egg-security] compose 6 middlewares into one security middleware
+2021-05-09 09:05:19,726 INFO 911 [egg:core] dump config after load, 4ms
+2021-05-09 09:05:19,739 INFO 911 [egg-watcher:application] watcher start success
+2021-05-09 09:05:19,743 INFO 911 [egg-mysql] instance[0] status OK, rds currentTime: 2021-05-09 09:05:19
+2021-05-09 09:05:19,749 INFO 911 [egg:core] dump config after ready, 5ms
+2021-05-09 09:08:07,462 INFO 1091 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-09 09:08:07,481 INFO 1091 [egg-multipart] file mode enable
+2021-05-09 09:08:07,481 INFO 1091 [egg-multipart] will save temporary files to "/var/folders/tj/sjr_3yqn35g72vzjbwt3wcb80000gn/T/egg-multipart-tmp/GYAN", cleanup job cron: "0 30 4 * * *"
+2021-05-09 09:08:07,482 INFO 1091 [egg-mysql] connecting root@localhost:3306/guoyi
+2021-05-09 09:08:07,568 INFO 1091 [egg-static] starting static serve /public/ -> /Users/mac/WebProjects/GY_website/server/app/public
+2021-05-09 09:08:07,569 INFO 1091 [egg-security] use methodnoallow middleware
+2021-05-09 09:08:07,570 INFO 1091 [egg-security] use noopen middleware
+2021-05-09 09:08:07,570 INFO 1091 [egg-security] use nosniff middleware
+2021-05-09 09:08:07,570 INFO 1091 [egg-security] use xssProtection middleware
+2021-05-09 09:08:07,571 INFO 1091 [egg-security] use xframe middleware
+2021-05-09 09:08:07,571 INFO 1091 [egg-security] use dta middleware
+2021-05-09 09:08:07,571 INFO 1091 [egg-security] compose 6 middlewares into one security middleware
+2021-05-09 09:08:07,598 INFO 1091 [egg:core] dump config after load, 4ms
+2021-05-09 09:08:07,611 INFO 1091 [egg-watcher:application] watcher start success
+2021-05-09 09:08:07,613 INFO 1091 [egg-mysql] instance[0] status OK, rds currentTime: 2021-05-09 09:08:07
+2021-05-09 09:08:07,619 INFO 1091 [egg:core] dump config after ready, 5ms
+2021-05-09 10:14:51,002 WARN 1091 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-09 10:14:51,003 WARN 1091 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-09 10:33:01,002 WARN 1091 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-09 10:33:01,003 WARN 1091 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-09 10:46:35,002 WARN 1091 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-09 10:46:35,002 WARN 1091 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-09 10:48:38,002 WARN 1091 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-09 10:48:38,002 WARN 1091 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-09 11:01:01,002 WARN 1091 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-09 11:01:01,002 WARN 1091 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-09 11:17:15,002 WARN 1091 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-09 11:17:15,002 WARN 1091 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-09 11:32:03,003 WARN 1091 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-09 11:32:03,003 WARN 1091 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-09 12:20:49,002 WARN 1091 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-09 12:20:49,002 WARN 1091 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-05-09 13:06:27,001 WARN 1091 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-05-09 13:06:27,002 WARN 1091 [ClusterClient:Watcher] follower closed, and try to init it again

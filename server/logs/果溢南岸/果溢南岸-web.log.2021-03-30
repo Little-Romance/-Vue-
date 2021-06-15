@@ -1,0 +1,2060 @@
+2021-03-30 00:25:59,888 WARN 14800 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:25:59,889 ERROR 14800 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:26:06,037 WARN 14800 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:26:06,038 ERROR 14800 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:26:11,362 WARN 14800 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:26:11,362 ERROR 14800 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:26:12,202 WARN 14800 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:26:12,202 ERROR 14800 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:27:46,566 WARN 14800 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:27:46,566 ERROR 14800 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:27:52,337 WARN 14800 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:27:52,337 ERROR 14800 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:29:36,043 WARN 14800 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:29:36,046 ERROR 14800 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 14800
+hostname: MacBook-Pro.local
+
+2021-03-30 00:29:38,075 WARN 17159 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:29:38,075 ERROR 17159 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:29:39,313 WARN 17159 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:29:39,313 ERROR 17159 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:33:28,698 WARN 17159 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:33:28,698 ERROR 17159 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:33:30,933 WARN 17159 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:33:30,934 ERROR 17159 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:33:32,166 WARN 17159 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:33:32,166 ERROR 17159 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:34:29,966 WARN 17159 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:34:29,967 ERROR 17159 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:36:01,025 WARN 17159 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:36:01,025 ERROR 17159 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:36:21,823 WARN 17159 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:36:21,823 ERROR 17159 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:37:25,954 WARN 17159 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-29T16:01:16.000Z"}
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:37:25,954 ERROR 17159 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:45:12,478 ERROR 17159 [-/undefined/-/62ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:45:12,527 ERROR 17159 [-/undefined/-/32ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 00:45:14,775 ERROR 17159 [-/undefined/-/2183ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 17159
+hostname: MacBook-Pro.local
+
+2021-03-30 01:12:27,573 ERROR 17506 [-/undefined/-/81ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 17506
+hostname: MacBook-Pro.local
+
+2021-03-30 01:12:27,686 ERROR 17506 [-/undefined/-/39ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 17506
+hostname: MacBook-Pro.local
+
+2021-03-30 01:12:44,922 ERROR 17506 [-/undefined/-/12760ms GET /public/videos/gy_1617036537493.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 17506
+hostname: MacBook-Pro.local
+
+2021-03-30 13:26:55,555 ERROR 1407 [-/undefined/-/73ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1407
+hostname: MacBook-Pro.local
+
+2021-03-30 13:26:56,124 ERROR 1407 [-/undefined/-/463ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1407
+hostname: MacBook-Pro.local
+
+2021-03-30 13:27:22,299 ERROR 1407 [-/undefined/-/4249ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1407
+hostname: MacBook-Pro.local
+
+2021-03-30 13:27:40,634 ERROR 1407 [-/undefined/-/18221ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1407
+hostname: MacBook-Pro.local
+
+2021-03-30 13:28:54,241 ERROR 1407 [-/undefined/-/12929ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1407
+hostname: MacBook-Pro.local
+
+2021-03-30 13:39:23,880 ERROR 1407 [-/undefined/-/3ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1407
+hostname: MacBook-Pro.local
+
+2021-03-30 13:39:23,979 ERROR 1407 [-/undefined/-/22ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1407
+hostname: MacBook-Pro.local
+
+2021-03-30 13:39:34,574 ERROR 1407 [-/undefined/-/6905ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 1407
+hostname: MacBook-Pro.local
+
+2021-03-30 13:54:54,026 ERROR 1407 nodejs.TypeError: Cannot read property 'toUpperCase' of undefined
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/code_handler.js:6:44
+    at dispatch (/Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mac/WebProjects/GY_website/server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mac/WebProjects/GY_website/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:19
+    at dispatch (/Users/mac/WebProjects/GY_website/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 1407
+hostname: MacBook-Pro.local
+
+2021-03-30 13:54:54,026 ERROR 1407 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+
+pid: 1407
+hostname: MacBook-Pro.local
+
+2021-03-30 14:16:28,429 ERROR 1967 nodejs.Error: 暂无数据
+    at HotService.list (/Users/mac/WebProjects/GY_website/server/app/service/hot.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HotController.getHotList (/Users/mac/WebProjects/GY_website/server/app/controller/hot.js:84:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 1967
+hostname: MacBook-Pro.local
+
+2021-03-30 14:16:28,430 ERROR 1967 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 1967
+hostname: MacBook-Pro.local
+
+2021-03-30 14:26:50,114 ERROR 2499 nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:65:19)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM tb_hot where category like '%%' limit NaN, 6;
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM tb_hot where category like '%%' limit NaN, 6;"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 2499
+hostname: MacBook-Pro.local
+
+2021-03-30 14:26:50,114 ERROR 2499 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 2499
+hostname: MacBook-Pro.local
+
+2021-03-30 14:27:16,663 ERROR 2635 nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:65:19)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM tb_hot where category like '%%' limit NaN, 8;
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM tb_hot where category like '%%' limit NaN, 8;"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 14:27:16,663 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 14:27:17,613 ERROR 2635 nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:65:19)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM tb_hot where category like '%%' limit NaN, 8;
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM tb_hot where category like '%%' limit NaN, 8;"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 14:27:17,613 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 14:44:44,987 ERROR 2635 nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:65:19)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM tb_hot where category like '%%' limit NaN, NaN;
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM tb_hot where category like '%%' limit NaN, NaN;"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 14:44:44,987 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 14:46:50,071 ERROR 2635 nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:65:19)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM tb_hot where category like '%%' limit NaN, NaN;
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM tb_hot where category like '%%' limit NaN, NaN;"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 14:46:50,072 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 14:57:00,684 WARN 2635 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-30T06:55:24.000Z"}
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 14:57:00,685 ERROR 2635 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:15:57,098 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:15:57,098 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:15:58,807 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:15:58,808 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:15:59,838 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:15:59,839 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:01,194 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:01,195 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:03,305 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:03,310 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:13,828 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:13,828 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:14,359 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:14,360 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:15,329 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:15,329 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:15,817 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:15,817 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:53,834 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:53,834 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:54,680 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:16:54,680 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:17:19,717 ERROR 2635 nodejs.Error: 暂无数据
+    at TimelineService.list (/Users/mac/WebProjects/GY_website/server/app/service/timeline.js:68:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async TimelineController.getPhotoList (/Users/mac/WebProjects/GY_website/server/app/controller/timeline.js:88:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:17:19,717 ERROR 2635 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 2635
+hostname: MacBook-Pro.local
+
+2021-03-30 15:18:32,499 WARN 3622 { status: 404, msg: '暂无数据' }
+2021-03-30 15:18:32,500 ERROR 3622 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 3622
+hostname: MacBook-Pro.local
+
+2021-03-30 15:18:34,385 WARN 3622 { status: 404, msg: '暂无数据' }
+2021-03-30 15:18:34,385 ERROR 3622 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 3622
+hostname: MacBook-Pro.local
+
+2021-03-30 15:18:36,323 WARN 3622 { status: 404, msg: '暂无数据' }
+2021-03-30 15:18:36,324 ERROR 3622 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 3622
+hostname: MacBook-Pro.local
+
+2021-03-30 15:19:23,539 WARN 3639 { status: 404, msg: '暂无数据' }
+2021-03-30 15:19:23,558 ERROR 3639 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 3639
+hostname: MacBook-Pro.local
+
+2021-03-30 15:19:41,145 WARN 3639 { status: 404, msg: '暂无数据' }
+2021-03-30 15:19:41,154 ERROR 3639 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 3639
+hostname: MacBook-Pro.local
+
+2021-03-30 16:15:14,947 ERROR 4628 nodejs.Error: 暂无数据
+    at ArticleService.list (/Users/mac/WebProjects/GY_website/server/app/service/article.js:69:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ArticleController.getArticleList (/Users/mac/WebProjects/GY_website/server/app/controller/article.js:81:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 4628
+hostname: MacBook-Pro.local
+
+2021-03-30 16:15:14,948 ERROR 4628 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 4628
+hostname: MacBook-Pro.local
+
+2021-03-30 16:16:00,383 WARN 4628 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-30T08:14:19.000Z"}
+pid: 4628
+hostname: MacBook-Pro.local
+
+2021-03-30 16:16:00,384 ERROR 4628 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 4628
+hostname: MacBook-Pro.local
+
+2021-03-30 16:17:30,898 ERROR 4628 nodejs.Error: 暂无数据
+    at HotService.list (/Users/mac/WebProjects/GY_website/server/app/service/hot.js:70:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HotController.getHotList (/Users/mac/WebProjects/GY_website/server/app/controller/hot.js:84:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 4628
+hostname: MacBook-Pro.local
+
+2021-03-30 16:17:30,898 ERROR 4628 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 4628
+hostname: MacBook-Pro.local
+
+2021-03-30 16:33:48,583 ERROR 4720 nodejs.Error: 暂无数据
+    at HotService.list (/Users/mac/WebProjects/GY_website/server/app/service/hot.js:70:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HotController.getHotList (/Users/mac/WebProjects/GY_website/server/app/controller/hot.js:84:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 16:33:48,583 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 16:33:55,115 ERROR 4720 nodejs.Error: 暂无数据
+    at HotService.list (/Users/mac/WebProjects/GY_website/server/app/service/hot.js:70:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HotController.getHotList (/Users/mac/WebProjects/GY_website/server/app/controller/hot.js:84:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 16:33:55,115 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 16:35:05,406 ERROR 4720 nodejs.Error: 暂无数据
+    at HotService.list (/Users/mac/WebProjects/GY_website/server/app/service/hot.js:70:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HotController.getHotList (/Users/mac/WebProjects/GY_website/server/app/controller/hot.js:84:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 16:35:05,407 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:33:23,317 ERROR 4720 nodejs.Error: 暂无数据
+    at ArticleService.list (/Users/mac/WebProjects/GY_website/server/app/service/article.js:69:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ArticleController.getArticleList (/Users/mac/WebProjects/GY_website/server/app/controller/article.js:81:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:33:23,317 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:35:58,651 ERROR 4720 nodejs.Error: 暂无数据
+    at ArticleService.list (/Users/mac/WebProjects/GY_website/server/app/service/article.js:69:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ArticleController.getArticleList (/Users/mac/WebProjects/GY_website/server/app/controller/article.js:81:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:35:58,651 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:40:14,740 ERROR 4720 nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:65:19)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM tb_article where category like '%undefined%' limit NaN, 8;
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM tb_article where category like '%undefined%' limit NaN, 8;"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:40:14,741 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:40:44,199 ERROR 4720 nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:65:19)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:54:5
+    sql: SELECT * FROM tb_article where category like '%undefined%' limit NaN, 8;
+code: "ER_SP_UNDECLARED_VAR"
+errno: 1327
+sqlMessage: "Undeclared variable: NaN"
+sqlState: "42000"
+index: 0
+sql: "SELECT * FROM tb_article where category like '%undefined%' limit NaN, 8;"
+name: "ER_SP_UNDECLARED_VARError"
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:40:44,200 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:52:46,070 ERROR 4720 nodejs.Error: 暂无数据
+    at ArticleService.list (/Users/mac/WebProjects/GY_website/server/app/service/article.js:69:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ArticleController.getArticleList (/Users/mac/WebProjects/GY_website/server/app/controller/article.js:81:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:52:46,070 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:55:35,204 ERROR 4720 nodejs.Error: 暂无数据
+    at ArticleService.list (/Users/mac/WebProjects/GY_website/server/app/service/article.js:69:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ArticleController.getArticleList (/Users/mac/WebProjects/GY_website/server/app/controller/article.js:81:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:55:35,205 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:56:53,919 ERROR 4720 nodejs.Error: 暂无数据
+    at ArticleService.list (/Users/mac/WebProjects/GY_website/server/app/service/article.js:69:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ArticleController.getArticleList (/Users/mac/WebProjects/GY_website/server/app/controller/article.js:81:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:56:53,919 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:57:23,118 ERROR 4720 nodejs.Error: 暂无数据
+    at ArticleService.list (/Users/mac/WebProjects/GY_website/server/app/service/article.js:69:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ArticleController.getArticleList (/Users/mac/WebProjects/GY_website/server/app/controller/article.js:81:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 17:57:23,118 ERROR 4720 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 4720
+hostname: MacBook-Pro.local
+
+2021-03-30 18:04:13,076 ERROR 6633 nodejs.Error: 暂无数据
+    at HotService.list (/Users/mac/WebProjects/GY_website/server/app/service/hot.js:70:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HotController.getHotList (/Users/mac/WebProjects/GY_website/server/app/controller/hot.js:84:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 6633
+hostname: MacBook-Pro.local
+
+2021-03-30 18:04:13,076 ERROR 6633 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 6633
+hostname: MacBook-Pro.local
+
+2021-03-30 18:06:09,105 ERROR 6633 [-/undefined/-/105ms GET /public/videos/gy_1617036537493.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 6633
+hostname: MacBook-Pro.local
+
+2021-03-30 18:06:09,274 ERROR 6633 [-/undefined/-/33ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 6633
+hostname: MacBook-Pro.local
+
+2021-03-30 18:13:40,305 ERROR 6633 [-/undefined/-/23800ms GET /public/videos/gy_1617036537493.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 6633
+hostname: MacBook-Pro.local
+
+2021-03-30 18:18:29,894 ERROR 6633 [-/undefined/-/39ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:784:11)
+    at Socket._write (net.js:796:8)
+    at doWrite (_stream_writable.js:377:12)
+    at clearBuffer (_stream_writable.js:529:7)
+    at Socket.Writable.uncork (_stream_writable.js:317:7)
+    at connectionCorkNT (_http_outgoing.js:722:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 6633
+hostname: MacBook-Pro.local
+
+2021-03-30 18:18:30,000 ERROR 6633 [-/undefined/-/63ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 6633
+hostname: MacBook-Pro.local
+
+2021-03-30 23:20:04,319 WARN 6633 nodejs.UnauthorizedError: jwt expired
+    at /Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:117:18
+    at /Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mac/WebProjects/GY_website/server/node_modules/jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mac/WebProjects/GY_website/server/node_modules/koa-jwt2/lib/index.js:114:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-03-30T10:15:59.000Z"}
+pid: 6633
+hostname: MacBook-Pro.local
+
+2021-03-30 23:20:04,320 ERROR 6633 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 6633
+hostname: MacBook-Pro.local
+

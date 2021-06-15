@@ -1,0 +1,114 @@
+2021-03-31 00:41:19,951 INFO 13610 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 00:41:19,951 INFO 13610 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 00:41:19,951 INFO 13610 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 00:41:22,345 INFO 13619 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 00:41:22,345 INFO 13619 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 00:41:22,345 INFO 13619 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 00:41:57,296 INFO 13634 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 00:41:57,296 INFO 13634 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 00:41:57,296 INFO 13634 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 00:42:18,032 INFO 13641 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 00:42:18,032 INFO 13641 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 00:42:18,032 INFO 13641 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 00:42:44,094 INFO 13652 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 00:42:44,094 INFO 13652 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 00:42:44,094 INFO 13652 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 00:42:54,267 INFO 13659 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 00:42:54,267 INFO 13659 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 00:42:54,267 INFO 13659 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 00:43:06,890 INFO 13663 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 00:43:06,890 INFO 13663 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 00:43:06,890 INFO 13663 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 00:45:06,100 INFO 13705 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 00:45:06,100 INFO 13705 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 00:45:06,100 INFO 13705 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 00:45:40,244 INFO 13723 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 00:45:40,244 INFO 13723 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 00:45:40,244 INFO 13723 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 00:46:58,984 INFO 13747 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 00:46:58,984 INFO 13747 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 00:46:58,984 INFO 13747 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 01:45:21,179 INFO 15577 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 9878823ms at 2021-03-31 04:30:00.002
+2021-03-31 01:45:21,180 INFO 15577 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 80078821ms at 2021-04-01 00:00:00.001
+2021-03-31 01:45:21,180 INFO 15577 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 80079820ms at 2021-04-01 00:00:01.000
+2021-03-31 01:45:20,969 INFO 15588 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 01:45:20,969 INFO 15588 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 01:45:20,969 INFO 15588 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 14:15:50,186 INFO 2521 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 14:15:50,186 INFO 2521 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 14:15:50,186 INFO 2521 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 14:16:37,391 INFO 2584 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51202611ms at 2021-04-01 04:30:00.002
+2021-03-31 14:16:37,391 INFO 2584 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35002609ms at 2021-04-01 00:00:00.000
+2021-03-31 14:16:37,391 INFO 2584 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35003609ms at 2021-04-01 00:00:01.000
+2021-03-31 14:16:37,251 INFO 2590 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 14:16:37,251 INFO 2590 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 14:16:37,251 INFO 2590 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 14:20:44,540 INFO 2775 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50955462ms at 2021-04-01 04:30:00.002
+2021-03-31 14:20:44,541 INFO 2775 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34755460ms at 2021-04-01 00:00:00.001
+2021-03-31 14:20:44,541 INFO 2775 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34756459ms at 2021-04-01 00:00:01.000
+2021-03-31 14:20:44,393 INFO 2782 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 14:20:44,393 INFO 2782 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 14:20:44,393 INFO 2782 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 14:54:01,134 INFO 3525 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 14:54:01,134 INFO 3525 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 14:54:01,134 INFO 3525 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-03-31 15:25:20,760 INFO 4344 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47079242ms at 2021-04-01 04:30:00.002
+2021-03-31 15:25:20,760 INFO 4344 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30879240ms at 2021-04-01 00:00:00.000
+2021-03-31 15:25:20,760 INFO 4344 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30880240ms at 2021-04-01 00:00:01.000
+2021-03-31 15:25:20,614 INFO 4349 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-03-31 15:25:20,614 INFO 4349 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-03-31 15:25:20,614 INFO 4349 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-06 13:57:04,762 INFO 16591 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52375240ms at 2021-04-07 04:30:00.002
+2021-04-06 13:57:04,762 INFO 16591 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36175238ms at 2021-04-07 00:00:00.000
+2021-04-06 13:57:04,762 INFO 16591 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36176238ms at 2021-04-07 00:00:01.000
+2021-04-06 13:57:04,537 INFO 16597 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-06 13:57:04,537 INFO 16597 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-06 13:57:04,537 INFO 16597 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-07 16:47:28,317 INFO 5591 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42151685ms at 2021-04-08 04:30:00.002
+2021-04-07 16:47:28,317 INFO 5591 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25951683ms at 2021-04-08 00:00:00.000
+2021-04-07 16:47:28,317 INFO 5591 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25952683ms at 2021-04-08 00:00:01.000
+2021-04-07 16:47:28,095 INFO 5599 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-07 16:47:28,095 INFO 5599 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-07 16:47:28,095 INFO 5599 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-12 00:40:05,489 INFO 75906 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 13794514ms at 2021-04-12 04:30:00.003
+2021-04-12 00:40:05,490 INFO 75906 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 83994511ms at 2021-04-13 00:00:00.001
+2021-04-12 00:40:05,490 INFO 75906 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 83995510ms at 2021-04-13 00:00:01.000
+2021-04-12 00:40:05,270 INFO 75908 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-12 00:40:05,270 INFO 75908 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-12 00:40:05,270 INFO 75908 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-12 01:15:32,574 INFO 76921 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 11667427ms at 2021-04-12 04:30:00.001
+2021-04-12 01:15:32,575 INFO 76921 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 81867426ms at 2021-04-13 00:00:00.001
+2021-04-12 01:15:32,575 INFO 76921 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 81868425ms at 2021-04-13 00:00:01.000
+2021-04-12 01:15:32,345 INFO 76922 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-12 01:15:32,345 INFO 76922 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-12 01:15:32,345 INFO 76922 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-13 12:24:30,059 INFO 872 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 57929943ms at 2021-04-14 04:30:00.002
+2021-04-13 12:24:30,059 INFO 872 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 41729941ms at 2021-04-14 00:00:00.000
+2021-04-13 12:24:30,059 INFO 872 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 41730941ms at 2021-04-14 00:00:01.000
+2021-04-13 12:24:29,833 INFO 873 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-13 12:24:29,833 INFO 873 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-13 12:24:29,833 INFO 873 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-13 18:57:39,245 INFO 7191 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34340757ms at 2021-04-14 04:30:00.002
+2021-04-13 18:57:39,246 INFO 7191 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18140755ms at 2021-04-14 00:00:00.001
+2021-04-13 18:57:39,246 INFO 7191 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18141754ms at 2021-04-14 00:00:01.000
+2021-04-13 18:57:39,025 INFO 7195 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-13 18:57:39,025 INFO 7195 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-13 18:57:39,025 INFO 7195 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-13 19:17:38,125 INFO 7592 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-13 19:17:38,125 INFO 7592 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-13 19:17:38,125 INFO 7592 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-13 19:52:42,170 INFO 8214 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-13 19:52:42,170 INFO 8214 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-13 19:52:42,170 INFO 8214 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-13 19:52:50,689 INFO 8224 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-13 19:52:50,689 INFO 8224 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-13 19:52:50,689 INFO 8224 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-13 19:52:56,219 INFO 8225 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-04-13 19:52:56,219 INFO 8225 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-04-13 19:52:56,219 INFO 8225 [egg-schedule]: register schedule /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-04-13 23:59:59,371 INFO 7191 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400631ms at 2021-04-15 00:00:00.002
+2021-04-13 23:59:59,370 INFO 8225 [Job#1618329599369421874418712041] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-04-13 23:59:59,376 INFO 8225 [Job#1618329599369421874418712041] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 6ms. 
+2021-04-14 00:00:00,370 INFO 7191 [Timer] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86400631ms at 2021-04-15 00:00:01.001
+2021-04-14 00:00:00,369 INFO 8225 [Job#1618329600369421884417118421] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-04-14 00:00:00,374 INFO 8225 [Job#1618329600369421884417118421] /Users/mac/WebProjects/GY_website/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 5ms. 

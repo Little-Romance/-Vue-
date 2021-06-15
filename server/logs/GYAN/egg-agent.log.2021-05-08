@@ -1,0 +1,20 @@
+2021-05-08 17:45:26,933 INFO 7867 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-08 17:45:26,939 INFO 7867 [egg:core] dump config after load, 3ms
+2021-05-08 17:45:26,972 INFO 7867 [egg-watcher] Start watching: ["/Users/mac/WebProjects/GY_website/server/app","/Users/mac/WebProjects/GY_website/server/config","/Users/mac/WebProjects/GY_website/server/mocks","/Users/mac/WebProjects/GY_website/server/mocks_proxy","/Users/mac/WebProjects/GY_website/server/app.js"]
+2021-05-08 17:45:26,972 INFO 7867 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app"
+2021-05-08 17:45:26,972 INFO 7867 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/config"
+2021-05-08 17:45:26,972 INFO 7867 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks"
+2021-05-08 17:45:26,972 INFO 7867 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks_proxy"
+2021-05-08 17:45:26,972 INFO 7867 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app.js"
+2021-05-08 17:45:26,973 INFO 7867 [egg-watcher:agent] watcher start success
+2021-05-08 17:45:26,986 INFO 7867 [egg:core] dump config after ready, 4ms
+2021-05-08 17:45:53,632 INFO 7894 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/GYAN","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"GYAN-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-05-08 17:45:53,642 INFO 7894 [egg:core] dump config after load, 7ms
+2021-05-08 17:45:53,671 INFO 7894 [egg-watcher] Start watching: ["/Users/mac/WebProjects/GY_website/server/app","/Users/mac/WebProjects/GY_website/server/config","/Users/mac/WebProjects/GY_website/server/mocks","/Users/mac/WebProjects/GY_website/server/mocks_proxy","/Users/mac/WebProjects/GY_website/server/app.js"]
+2021-05-08 17:45:53,671 INFO 7894 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app"
+2021-05-08 17:45:53,671 INFO 7894 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/config"
+2021-05-08 17:45:53,671 INFO 7894 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks"
+2021-05-08 17:45:53,671 INFO 7894 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks_proxy"
+2021-05-08 17:45:53,672 INFO 7894 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app.js"
+2021-05-08 17:45:53,672 INFO 7894 [egg-watcher:agent] watcher start success
+2021-05-08 17:45:53,681 INFO 7894 [egg:core] dump config after ready, 4ms

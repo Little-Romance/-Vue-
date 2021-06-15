@@ -1,0 +1,276 @@
+2021-04-19 16:11:50,196 ERROR 2932 [-/undefined/-/48ms GET /public/videos/gy_1617036267586.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 2932
+hostname: MacBook-Pro.local
+
+2021-04-19 16:11:50,353 ERROR 2932 [-/undefined/-/117ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 2932
+hostname: MacBook-Pro.local
+
+2021-04-25 22:43:28,584 ERROR 3232 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 3232
+hostname: MacBook-Pro
+
+2021-04-25 22:43:41,507 ERROR 3232 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/WebProjects/GY_website/server/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 3232
+hostname: MacBook-Pro
+
+2021-04-25 22:44:07,152 ERROR 3232 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 3232
+hostname: MacBook-Pro
+
+2021-04-25 22:44:24,645 ERROR 3232 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 3232
+hostname: MacBook-Pro
+
+2021-04-25 22:44:52,311 ERROR 3232 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 3232
+hostname: MacBook-Pro
+
+2021-04-25 22:50:31,943 ERROR 3414 nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or1=1'' at line 1
+    at Query.Sequence._packetToError (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:307:12)
+    --------------------
+    at Pool.query (/Users/mac/WebProjects/GY_website/server/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mac/WebProjects/GY_website/server/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:65:19)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/co/index.js:54:5
+    sql: SELECT nickname FROM tb_admin WHERE nickname = ''or1=1';
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or1=1'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT nickname FROM tb_admin WHERE nickname = ''or1=1';"
+name: "ER_PARSE_ERRORError"
+pid: 3414
+hostname: MacBook-Pro
+
+2021-04-25 22:50:31,943 ERROR 3414 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:27:20)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+
+pid: 3414
+hostname: MacBook-Pro
+
+2021-04-25 22:50:36,284 ERROR 3414 [egg-bcrypt] Error: Illegal arguments: string, undefined
+    at _async (/Users/mac/WebProjects/GY_website/server/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/bcryptjs/dist/bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (/Users/mac/WebProjects/GY_website/server/node_modules/bcryptjs/dist/bcrypt.js:306:20)
+    at Object.compare (/Users/mac/WebProjects/GY_website/server/node_modules/egg-bcrypt/app/extend/context.js:13:8)
+    at AdminService.login (/Users/mac/WebProjects/GY_website/server/app/service/admin.js:48:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AdminController.login (/Users/mac/WebProjects/GY_website/server/app/controller/admin.js:28:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+2021-04-25 22:50:36,285 ERROR 3414 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/WebProjects/GY_website/server/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 3414
+hostname: MacBook-Pro
+
+2021-04-25 22:50:51,683 ERROR 3414 [egg-bcrypt] Error: Illegal arguments: string, undefined
+    at _async (/Users/mac/WebProjects/GY_website/server/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/bcryptjs/dist/bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (/Users/mac/WebProjects/GY_website/server/node_modules/bcryptjs/dist/bcrypt.js:306:20)
+    at Object.compare (/Users/mac/WebProjects/GY_website/server/node_modules/egg-bcrypt/app/extend/context.js:13:8)
+    at AdminService.login (/Users/mac/WebProjects/GY_website/server/app/service/admin.js:48:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AdminController.login (/Users/mac/WebProjects/GY_website/server/app/controller/admin.js:28:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+2021-04-25 22:50:51,684 ERROR 3414 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/WebProjects/GY_website/server/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 3414
+hostname: MacBook-Pro
+
+2021-04-25 22:51:01,632 ERROR 3423 [egg-bcrypt] Error: Illegal arguments: string, undefined
+    at _async (/Users/mac/WebProjects/GY_website/server/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at /Users/mac/WebProjects/GY_website/server/node_modules/bcryptjs/dist/bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (/Users/mac/WebProjects/GY_website/server/node_modules/bcryptjs/dist/bcrypt.js:306:20)
+    at Object.compare (/Users/mac/WebProjects/GY_website/server/node_modules/egg-bcrypt/app/extend/context.js:13:8)
+    at AdminService.login (/Users/mac/WebProjects/GY_website/server/app/service/admin.js:49:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AdminController.login (/Users/mac/WebProjects/GY_website/server/app/controller/admin.js:28:21)
+    at async /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:4:13
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+2021-04-25 22:51:01,633 ERROR 3423 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/mac/WebProjects/GY_website/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/mac/WebProjects/GY_website/server/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 3423
+hostname: MacBook-Pro
+
+2021-04-28 21:56:06,608 ERROR 8799 [-/undefined/-/60ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 8799
+hostname: MacBook-Pro.local
+
+2021-04-28 21:56:06,773 ERROR 8799 [-/undefined/-/121ms GET /public/videos/gy_1617036267586.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 8799
+hostname: MacBook-Pro.local
+
+2021-04-28 21:56:13,976 ERROR 8799 [-/undefined/-/148ms GET /public/videos/gy_1618311756097.mp4] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -54
+code: "ECONNRESET"
+syscall: "read"
+headerSent: true
+name: "ECONNRESETError"
+pid: 8799
+hostname: MacBook-Pro.local
+
+2021-04-28 21:56:14,217 ERROR 8799 [-/undefined/-/56ms GET /public/videos/gy_1618311756097.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 8799
+hostname: MacBook-Pro.local
+
+2021-04-28 21:59:17,103 ERROR 8799 nodejs.TypeError: Cannot read property 'warn' of undefined
+    at Application.<anonymous> (/Users/mac/WebProjects/GY_website/server/node_modules/egg-onerror/app.js:37:18)
+    at Application.emit (events.js:314:20)
+    at /Users/mac/WebProjects/GY_website/server/app/middleware/error_handler.js:8:17
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mac/WebProjects/GY_website/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/mac/WebProjects/GY_website/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+
+pid: 8799
+hostname: MacBook-Pro.local
+

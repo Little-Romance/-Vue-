@@ -1,0 +1,73 @@
+2021-04-18 00:00:00,866 INFO 3069 [egg-logrotator] agent logger reload: got log-reload message
+2021-04-18 00:02:10,133 INFO 4580 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-18 00:02:10,140 INFO 4580 [egg:core] dump config after load, 3ms
+2021-04-18 00:02:10,169 INFO 4580 [egg-watcher] Start watching: ["/Users/mac/WebProjects/GY_website/server/app","/Users/mac/WebProjects/GY_website/server/config","/Users/mac/WebProjects/GY_website/server/mocks","/Users/mac/WebProjects/GY_website/server/mocks_proxy","/Users/mac/WebProjects/GY_website/server/app.js"]
+2021-04-18 00:02:10,169 INFO 4580 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app"
+2021-04-18 00:02:10,170 INFO 4580 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/config"
+2021-04-18 00:02:10,170 INFO 4580 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks"
+2021-04-18 00:02:10,170 INFO 4580 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks_proxy"
+2021-04-18 00:02:10,170 INFO 4580 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app.js"
+2021-04-18 00:02:10,170 INFO 4580 [egg-watcher:agent] watcher start success
+2021-04-18 00:02:10,180 INFO 4580 [egg:core] dump config after ready, 3ms
+2021-04-19 14:53:19,620 INFO 2925 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-19 14:53:19,631 INFO 2925 [egg:core] dump config after load, 6ms
+2021-04-19 14:53:19,692 INFO 2925 [egg-watcher] Start watching: ["/Users/mac/WebProjects/GY_website/server/app","/Users/mac/WebProjects/GY_website/server/config","/Users/mac/WebProjects/GY_website/server/mocks","/Users/mac/WebProjects/GY_website/server/mocks_proxy","/Users/mac/WebProjects/GY_website/server/app.js"]
+2021-04-19 14:53:19,692 INFO 2925 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app"
+2021-04-19 14:53:19,693 INFO 2925 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/config"
+2021-04-19 14:53:19,693 INFO 2925 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks"
+2021-04-19 14:53:19,693 INFO 2925 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks_proxy"
+2021-04-19 14:53:19,693 INFO 2925 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app.js"
+2021-04-19 14:53:19,695 INFO 2925 [egg-watcher:agent] watcher start success
+2021-04-19 14:53:19,712 INFO 2925 [egg:core] dump config after ready, 8ms
+2021-04-25 01:20:01,671 INFO 11728 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-25 01:20:01,678 INFO 11728 [egg:core] dump config after load, 3ms
+2021-04-25 01:20:01,715 INFO 11728 [egg-watcher] Start watching: ["/Users/mac/WebProjects/GY_website/server/app","/Users/mac/WebProjects/GY_website/server/config","/Users/mac/WebProjects/GY_website/server/mocks","/Users/mac/WebProjects/GY_website/server/mocks_proxy","/Users/mac/WebProjects/GY_website/server/app.js"]
+2021-04-25 01:20:01,715 INFO 11728 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app"
+2021-04-25 01:20:01,715 INFO 11728 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/config"
+2021-04-25 01:20:01,715 INFO 11728 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks"
+2021-04-25 01:20:01,715 INFO 11728 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks_proxy"
+2021-04-25 01:20:01,715 INFO 11728 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app.js"
+2021-04-25 01:20:01,716 INFO 11728 [egg-watcher:agent] watcher start success
+2021-04-25 01:20:01,726 INFO 11728 [egg:core] dump config after ready, 4ms
+2021-04-25 22:43:13,271 INFO 3227 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-25 22:43:13,277 INFO 3227 [egg:core] dump config after load, 3ms
+2021-04-25 22:43:13,312 INFO 3227 [egg-watcher] Start watching: ["/Users/mac/WebProjects/GY_website/server/app","/Users/mac/WebProjects/GY_website/server/config","/Users/mac/WebProjects/GY_website/server/mocks","/Users/mac/WebProjects/GY_website/server/mocks_proxy","/Users/mac/WebProjects/GY_website/server/app.js"]
+2021-04-25 22:43:13,312 INFO 3227 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app"
+2021-04-25 22:43:13,312 INFO 3227 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/config"
+2021-04-25 22:43:13,312 INFO 3227 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks"
+2021-04-25 22:43:13,312 INFO 3227 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks_proxy"
+2021-04-25 22:43:13,312 INFO 3227 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app.js"
+2021-04-25 22:43:13,313 INFO 3227 [egg-watcher:agent] watcher start success
+2021-04-25 22:43:13,322 INFO 3227 [egg:core] dump config after ready, 4ms
+2021-04-25 22:47:01,636 INFO 3227 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mac/WebProjects/GY_website/server/app/service/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12896035487,"size":3262,"blocks":8,"atimeMs":1618568655800.111,"mtimeMs":1619362021574.7595,"ctimeMs":1619362021574.7595,"birthtimeMs":1613547780984.8225,"atime":"2021-04-16T10:24:15.800Z","mtime":"2021-04-25T14:47:01.575Z","ctime":"2021-04-25T14:47:01.575Z","birthtime":"2021-02-17T07:43:00.985Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-04-25 22:47:01,637 INFO 3227 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/mac/WebProjects/GY_website/server/app/service/admin.js~","remove":true,"isDirectory":false,"isFile":false}
+2021-04-25 22:47:01,837 WARN 3227 [agent:development] reload worker because /Users/mac/WebProjects/GY_website/server/app/service/admin.js~ rename
+2021-04-25 22:50:05,055 WARN 3227 [agent:development] reload worker because /Users/mac/WebProjects/GY_website/server/app/service/admin.js~ rename
+2021-04-25 22:50:04,850 INFO 3227 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mac/WebProjects/GY_website/server/app/service/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12896035487,"size":3324,"blocks":8,"atimeMs":1619362022171.3357,"mtimeMs":1619362204789.2422,"ctimeMs":1619362204789.2422,"birthtimeMs":1613547780984.8225,"atime":"2021-04-25T14:47:02.171Z","mtime":"2021-04-25T14:50:04.789Z","ctime":"2021-04-25T14:50:04.789Z","birthtime":"2021-02-17T07:43:00.985Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-04-25 22:50:04,851 INFO 3227 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/mac/WebProjects/GY_website/server/app/service/admin.js~","remove":true,"isDirectory":false,"isFile":false}
+2021-04-25 22:50:24,997 INFO 3411 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-25 22:50:25,003 INFO 3411 [egg:core] dump config after load, 3ms
+2021-04-25 22:50:25,035 INFO 3411 [egg-watcher] Start watching: ["/Users/mac/WebProjects/GY_website/server/app","/Users/mac/WebProjects/GY_website/server/config","/Users/mac/WebProjects/GY_website/server/mocks","/Users/mac/WebProjects/GY_website/server/mocks_proxy","/Users/mac/WebProjects/GY_website/server/app.js"]
+2021-04-25 22:50:25,035 INFO 3411 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app"
+2021-04-25 22:50:25,035 INFO 3411 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/config"
+2021-04-25 22:50:25,035 INFO 3411 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks"
+2021-04-25 22:50:25,035 INFO 3411 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks_proxy"
+2021-04-25 22:50:25,035 INFO 3411 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app.js"
+2021-04-25 22:50:25,036 INFO 3411 [egg-watcher:agent] watcher start success
+2021-04-25 22:50:25,046 INFO 3411 [egg:core] dump config after ready, 4ms
+2021-04-25 22:50:50,870 WARN 3411 [agent:development] reload worker because /Users/mac/WebProjects/GY_website/server/app/service/admin.js~ rename
+2021-04-25 22:50:50,668 INFO 3411 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mac/WebProjects/GY_website/server/app/service/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12896035487,"size":3356,"blocks":8,"atimeMs":1619362205652.905,"mtimeMs":1619362250657.2664,"ctimeMs":1619362250657.2664,"birthtimeMs":1613547780984.8225,"atime":"2021-04-25T14:50:05.653Z","mtime":"2021-04-25T14:50:50.657Z","ctime":"2021-04-25T14:50:50.657Z","birthtime":"2021-02-17T07:43:00.985Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-04-25 22:50:50,670 INFO 3411 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/mac/WebProjects/GY_website/server/app/service/admin.js~","remove":true,"isDirectory":false,"isFile":false}
+2021-04-25 22:51:49,170 INFO 3411 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mac/WebProjects/GY_website/server/app/service/admin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12896035487,"size":3196,"blocks":8,"atimeMs":1619362251064.7205,"mtimeMs":1619362309109.7776,"ctimeMs":1619362309109.7776,"birthtimeMs":1613547780984.8225,"atime":"2021-04-25T14:50:51.065Z","mtime":"2021-04-25T14:51:49.110Z","ctime":"2021-04-25T14:51:49.110Z","birthtime":"2021-02-17T07:43:00.985Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-04-25 22:51:49,171 INFO 3411 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/mac/WebProjects/GY_website/server/app/service/admin.js~","remove":true,"isDirectory":false,"isFile":false}
+2021-04-25 22:51:49,376 WARN 3411 [agent:development] reload worker because /Users/mac/WebProjects/GY_website/server/app/service/admin.js~ rename
+2021-04-28 21:55:45,458 INFO 8792 [egg:logger] init all loggers with options: {"dir":"/Users/mac/WebProjects/GY_website/server/logs/果溢南岸","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"果溢南岸-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-04-28 21:55:45,464 INFO 8792 [egg:core] dump config after load, 3ms
+2021-04-28 21:55:45,498 INFO 8792 [egg-watcher] Start watching: ["/Users/mac/WebProjects/GY_website/server/app","/Users/mac/WebProjects/GY_website/server/config","/Users/mac/WebProjects/GY_website/server/mocks","/Users/mac/WebProjects/GY_website/server/mocks_proxy","/Users/mac/WebProjects/GY_website/server/app.js"]
+2021-04-28 21:55:45,498 INFO 8792 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app"
+2021-04-28 21:55:45,498 INFO 8792 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/config"
+2021-04-28 21:55:45,498 INFO 8792 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks"
+2021-04-28 21:55:45,498 INFO 8792 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/mocks_proxy"
+2021-04-28 21:55:45,498 INFO 8792 [egg-watcher] Start watching: "/Users/mac/WebProjects/GY_website/server/app.js"
+2021-04-28 21:55:45,499 INFO 8792 [egg-watcher:agent] watcher start success
+2021-04-28 21:55:45,509 INFO 8792 [egg:core] dump config after ready, 4ms
